@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='corsair-header']/header/div[2]/div/div/a[7]/span</value>
+         <value>&lt;span class=&quot;nav-btn-text&quot; xpath=&quot;1&quot;>Support&lt;/span></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

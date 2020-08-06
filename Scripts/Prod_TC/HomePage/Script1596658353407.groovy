@@ -23,21 +23,36 @@ WebUI.navigateToUrl('https://www.corsair.com/ww/en/')
 WebUI.deleteAllCookies()
 
 WebUI.refresh()
-//WebUI.refresh()
 
 WebUI.click(findTestObject('Prod_OR/MenuHeaderNavigationsLinks_Flyout/span_Gaming Gear'))
 
+WebUI.takeScreenshot()
+
+WebUI.waitForElementClickable(findTestObject('Prod_OR/MenuHeaderNavigationsLinks_Flyout/span_Streaming Gear'), 30)
+
 WebUI.click(findTestObject('Prod_OR/MenuHeaderNavigationsLinks_Flyout/span_Streaming Gear'))
+
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Prod_OR/MenuHeaderNavigationsLinks_Flyout/span_PC Components'))
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Prod_OR/MenuHeaderNavigationsLinks_Flyout/span_Gaming PCs'))
+
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Prod_OR/MenuHeaderNavigationsLinks_Flyout/span_Software'))
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Prod_OR/MenuHeaderNavigationsLinks_Flyout/span_Community'))
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Prod_OR/MenuHeaderNavigationsLinks_Flyout/span_Support'))
+
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
 

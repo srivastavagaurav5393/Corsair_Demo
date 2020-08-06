@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='corsair-header']/header/div[2]/div/div/a[2]/span</value>
+         <value>//span[@class='nav-btn-text'][contains(text(),'Streaming Gear')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
