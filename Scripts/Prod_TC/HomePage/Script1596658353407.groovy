@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://www.corsair.com/ww/en/')
 WebUI.deleteAllCookies()
 
 WebUI.refresh()
-//WebUI.refresh()
+
 
 WebUI.click(findTestObject('Prod_OR/MenuHeaderNavigationsLinks_Flyout/span_Gaming Gear'))
 
