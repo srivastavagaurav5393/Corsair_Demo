@@ -11,3 +11,11 @@ workflows:
     # Run the welcome/run job in its own container
     jobs:
       - welcome/run
+      
+      run_katalon_test_suite:
+      
+      script:
+        - katalon -noSplash  -runMode=console -consoleLog -projectPath=
+          "D:\Katalon Workspace\Projects\Corsair_Demo\Corsair_Demo.prj" -retry=0
+          -testSuitePath="Test Suites/Prod_TSC/HomePage_TSC" -executionProfile=
+          "default" -browserType="Chrome (headless)"
