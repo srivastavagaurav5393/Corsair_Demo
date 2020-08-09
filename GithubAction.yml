@@ -1,0 +1,2 @@
+- name: Katalon Studio
+  uses: katalon-studio/katalon-studio-github-action@v2.2
