@@ -15,5 +15,5 @@ jobs:
       uses: katalon-studio/katalon-studio-github-action@v2
       with:
           version: '7.5.5'
-          projectPath: '${{ github.workspace }}'
-          args: '-noSplash -retry=0 -testSuiteCollectionPath="Test Suites/Prod_TSC/HomePage_TSC" -apiKey= ${{ secrets.API_KEY }} --config -webui.autoUpdateDrivers=true'
+          projectPath: "https://github.com/srivastavagaurav5393/Corsair_Demo"
+          args: '-noSplash -retry=0 -testSuiteCollectionPath="Test Suites/Prod_TSC/HomePage_TSC" -apiKey= "4dfcc83e-87d8-416d-8785-8fdb082dc3de" --config -webui.autoUpdateDrivers=true'
